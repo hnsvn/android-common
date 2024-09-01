@@ -1,0 +1,26 @@
+/*
+ * Hnscloud Android Common Library
+ *
+ * SPDX-FileCopyrightText: 2022-2023 Hnscloud GmbH and Hnscloud contributors
+ * SPDX-License-Identifier: MIT
+ */
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "android-common"
+include ':core'
+include ':ui'
+include ':material-color-utilities'
+include ':sample'

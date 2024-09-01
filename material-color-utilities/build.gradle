@@ -1,0 +1,31 @@
+/*
+ * Hnscloud Android Common Library
+ *
+ * SPDX-FileCopyrightText: 2022-2023 Hnscloud GmbH and Hnscloud contributors
+ * SPDX-License-Identifier: MIT
+ */
+
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+    implementation 'com.google.errorprone:error_prone_annotations:2.29.2'
+    implementation 'androidx.annotation:annotation-jvm:1.8.2'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = project.group
+            artifactId = project.name
+            from components.java
+        }
+    }
+}

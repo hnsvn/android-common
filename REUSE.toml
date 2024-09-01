@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Hnscloud GmbH and Hnscloud contributors
+# SPDX-License-Identifier: MIT
+version = 1
+SPDX-PackageName = "android-common"
+SPDX-PackageSupplier = "Hnscloud Android team <android@hns.vn>"
+SPDX-PackageDownloadLocation = "https://github.com/hnscloud/android-common"
+annotations = []

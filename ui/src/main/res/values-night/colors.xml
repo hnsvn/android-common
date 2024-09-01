@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Hnscloud Android Common Library
+  ~
+  ~ SPDX-FileCopyrightText: 2023 Hnscloud GmbH and Hnscloud contributors
+  ~ SPDX-License-Identifier: MIT
+-->
+<resources>
+    <color name="refresh_spinner_background">#222222</color>
+    <color name="high_emphasis_text">#deffffff</color>
+    <color name="disabled_text">#ff6F6F6F</color>
+    <color name="bg_default">#121212</color>
+    <color name="switch_thumb_color_unchecked">#cbcbcb</color>
+    <color name="switch_track_color_unchecked">#5a5a5a</color>
+</resources>
